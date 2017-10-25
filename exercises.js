@@ -309,8 +309,10 @@ console.log(canDrink)
  * Create a function named throwParty. This function will check the value stored in the `canDrink` variable in the previous exercise. If the value is true, it will return the message "Cheee Hoo! We going to da party!" If false, then it will return the message "Meh, see you at Starbucks." Store the return value to a variable named `canParty`. Console.log your result.
  */
 
-
-
-
-
-
+var throwParty = function(canDrink) {
+  if(canDrink)
+    return "Chee Hoo! We going to the party";
+  else
+    return "Cash me at Starbucks.";
+}
+console.log(throwParty(canDrink));
