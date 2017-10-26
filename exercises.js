@@ -186,10 +186,14 @@ console.log(checkQuotient())
  * This function will add the first two parameters together. Then with the sum of that operation, subtract it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
+var bango3 = 45
+var bango4 = 78;
+var bango5 = 0;
+
 var addThenSubtract = function(num1,num2,num3) {
-  return divide(num1,num2)-num3;
+  return add(num1,num2) - num3;
 }
-console.log(addThenSubtract(quotient,sum,quotient));
+console.log(addThenSubtract(bango3,bango4,bango5));
 
 /*
  * #11
@@ -207,7 +211,7 @@ console.log(addThenSubtract(quotient,sum,quotient));
 var multiplyThenDivide = function(num1,num2,num3) {
   return multiply(num1,num2) / num3;
 }
-console.log(multiplyThenDivide(product,sum,difference));
+console.log(multiplyThenDivide(bango5,bango4,bango3));
 /*
  * #12
  * Function - createFullName
